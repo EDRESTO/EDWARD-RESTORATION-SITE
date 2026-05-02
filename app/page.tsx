@@ -12,7 +12,7 @@ export default function Home() {
   alt="E.D.W.A.R.D. Logo"
   style={{
     maxWidth: "450px",
-    width: "100%",
+    width: "150%",
     height: "auto"
   }}
 />
