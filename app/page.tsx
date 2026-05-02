@@ -94,21 +94,21 @@ export default function Home() {
         <h2 style={{ fontSize: 44 }}>Need Water Cleanup Now?</h2>
         <p style={{ fontSize: 22, color: "#cbd5e1" }}>Call E.D.W.A.R.D. Water Restoration today.</p>
         <a
-          href="tel:18559835663"
-          style={{
-            display: "inline-block",
-            marginTop: 24,
-            background: "#22d3ee",
-            color: "#07111f",
-            padding: "18px 28px",
-            borderRadius: 14,
-            fontWeight: 900,
-            textDecoration: "none",
-            fontSize: 22,
-          }}
-        >
-          TAP TO CALL
-        </a>
+  href="tel:18559835663"
+  style={{
+    display: "inline-block",
+    marginTop: 24,
+    background: "#22d3ee",
+    color: "#07111f",
+    padding: "18px 28px",
+    borderRadius: 14,
+    fontWeight: 900,
+    textDecoration: "none",
+    fontSize: 22,
+  }}
+>
+  TAP TO CALL
+</a>
       </section>
         </main>
   );
