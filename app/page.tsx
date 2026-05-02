@@ -2,8 +2,21 @@ export default function Home() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", background: "#07111f", color: "white", minHeight: "100vh" }}>
       <section style={{ padding: "18px", background: "#d9ff3f", color: "#07111f", textAlign: "center", fontWeight: 900 }}>
-        24/7 EMERGENCY WATER CLEAN UP & RESTORATION • CALL 1 (855) 983-5663
-      </section>
+  <div>
+    24/7 EMERGENCY WATER CLEAN UP & RESTORATION - CALL 1 (855) 983-5663
+  </div>
+
+  <img
+    src="/edward-logo.png"
+    alt="E.D.W.A.R.D. Logo"
+    style={{
+      marginTop: "15px",
+      maxWidth: "420px",
+      width: "100%",
+      height: "auto"
+    }}
+  />
+</section>
 
       <section style={{ padding: "70px 24px", maxWidth: 1100, margin: "0 auto" }}>
         <h1 style={{ fontSize: "56px", lineHeight: 1.05, marginBottom: 20 }}>
