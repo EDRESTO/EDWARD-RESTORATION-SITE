@@ -16,6 +16,19 @@ export default function Home() {
     height: "auto"
   }}
 />
+<section style={{
+  display: "flex",
+  justifyContent: "center",
+  background: "#07111f"
+}}>
+  <div style={{
+    width: "100%",
+    maxWidth: "900px",
+    height: "6px",
+    background: "#d9ff3f",
+    borderRadius: "4px",
+    margin: "10px 0 20px 0"
+  }} />
 </section>
 
       <section style={{ padding: "30px 24px", maxWidth: 1100, margin: "-40px auto 0" }}>
