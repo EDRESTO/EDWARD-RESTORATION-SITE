@@ -18,7 +18,7 @@ export default function Home() {
 />
 </section>
 
-      <section style={{ padding: "30px 24px", maxWidth: 1100, margin: "0 auto" }}>
+      <section style={{ padding: "30px 24px", maxWidth: 1100, margin: "-40px auto 0" }}>
         <h1 style={{ fontSize: "56px", lineHeight: 1.05, marginBottom: 20 }}>
           Water Damage?<br />
           <span style={{ color: "#d9ff3f" }}>Don’t Worry.</span><br />
