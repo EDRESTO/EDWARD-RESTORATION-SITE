@@ -5,7 +5,7 @@ export default function Home() {
   <div>
     24/7 EMERGENCY WATER CLEAN UP & RESTORATION - CALL 1 (855) 983-5663
   </div>
-
+</section>
   <section style={{ textAlign: "center", padding: "30px 0", background: "#07111f" }}>
   <img
   src="/edward-logo.png"
