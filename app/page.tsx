@@ -104,7 +104,7 @@ export default function Home() {
     borderRadius: 14,
     fontWeight: 900,
     textDecoration: "none",
-    fontSize: 22,
+    fontSize: 22
   }}
 >
   TAP TO CALL
