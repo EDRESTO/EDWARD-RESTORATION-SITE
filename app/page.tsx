@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", background: "#07111f", color: "white", minHeight: "100vh" }}>
-      <section style={{ padding: "18px", background: "#d9ff3f", color: "#07111f", textAlign: "center", fontWeight: 900 }}>
+      <section style={{ textAlign: "center", padding: "10px 0", background: "#07111f" }}>, textAlign: "center", fontWeight: 900 }}>
   <div>
     24/7 EMERGENCY WATER CLEAN UP & RESTORATION - CALL 1 (855) 983-5663
   </div>
