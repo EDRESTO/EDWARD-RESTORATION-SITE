@@ -23,7 +23,7 @@ export default function Page() {
       <div style={{ position: "relative", width: "100%" }}>
         
         <img
-          src="/banner.png" // 🔁 replace with your actual PNG name
+          src="/edward-logo-v2.png" // 🔁 replace with your actual PNG name
           alt="Banner"
           style={{ width: "100%", display: "block" }}
         />
