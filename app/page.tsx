@@ -11,7 +11,7 @@ export default function Home() {
   src="/edward-logo-v2.png"
   alt="E.D.W.A.R.D. Logo"
   style={{
-    maxWidth: "450px",
+    maxWidth: "600px",
     width: "150%",
     height: "auto"
   }}
