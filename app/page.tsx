@@ -8,7 +8,7 @@ export default function Home() {
 </section>
   <section style={{ textAlign: "center", padding: "30px 0", background: "#07111f" }}>
   <img
-  src="/edward-logo.png"
+  src="/edward-logo-v2.png"
   alt="E.D.W.A.R.D. Logo"
   style={{
     maxWidth: "450px",
