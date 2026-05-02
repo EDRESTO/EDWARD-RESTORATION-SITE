@@ -103,6 +103,6 @@ export default function Home() {
           TAP TO CALL
         </a>
       </section>
-    </main>
+        </main>
   );
 }
