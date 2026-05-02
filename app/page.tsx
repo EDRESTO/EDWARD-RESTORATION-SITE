@@ -13,7 +13,9 @@ export default function Home() {
         </h1>
 
         <p style={{ fontSize: 22, color: "#cbd5e1", maxWidth: 650 }}>
-          Fast water extraction, drying, dehumidification, and mold prevention for homes and businesses.
+          <p style={{ fontSize: 20, color: "#94a3b8", marginTop: 10 }}>
+  Serving Danbury, CT and surrounding areas including Bethel, Brookfield, Newtown, and Ridgefield.
+</p> Fast water extraction, drying, dehumidification, and mold prevention for homes and businesses.
         </p>
 
         <a
