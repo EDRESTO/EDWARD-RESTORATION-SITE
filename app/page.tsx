@@ -8,14 +8,14 @@ export default function Home() {
 
   <section style={{ textAlign: "center", padding: "30px 0", background: "#07111f" }}>
   <img
-    src="/edward-logo.png"
-    alt="E.D.W.A.R.D. Logo"
-    style={{
-      maxWidth: "450px",
-      width: "100%",
-      height: "auto"
-    }}
-  />
+  src="/edward-logo.png"
+  alt="E.D.W.A.R.D. Logo"
+  style={{
+    maxWidth: "450px",
+    width: "100%",
+    height: "auto"
+  }}
+/>
 </section>
 
       <section style={{ padding: "70px 24px", maxWidth: 1100, margin: "0 auto" }}>
