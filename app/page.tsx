@@ -9,6 +9,51 @@ export default function Page() {
             100% { box-shadow: 0 0 12px #d9ff3f; transform: scale(1); }
           }
 
+          @keyframes floatEstimate {
+            0% { transform: translateY(0px) translateX(0px); }
+            25% { transform: translateY(-12px) translateX(-5px); }
+            50% { transform: translateY(0px) translateX(-10px); }
+            75% { transform: translateY(10px) translateX(-4px); }
+            100% { transform: translateY(0px) translateX(0px); }
+          }
+
+          @keyframes estimateGlow {
+            0%, 100% {
+              box-shadow:
+                0 0 18px #d9ff3f,
+                0 0 35px #22d3ee,
+                0 0 60px rgba(217, 255, 63, 0.85);
+            }
+            50% {
+              box-shadow:
+                0 0 30px #d9ff3f,
+                0 0 55px #22d3ee,
+                0 0 85px rgba(217, 255, 63, 1);
+            }
+          }
+
+          .freeEstimateCircle {
+            position: fixed;
+            right: 22px;
+            bottom: 92px;
+            width: 112px;
+            height: 112px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #ffffff 0%, #d9ff3f 35%, #22d3ee 100%);
+            color: #07111f;
+            font-weight: 900;
+            font-size: 15px;
+            text-align: center;
+            line-height: 1.1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            z-index: 9998;
+            border: 3px solid #ffffff;
+            animation: floatEstimate 4s ease-in-out infinite, estimateGlow 1.8s ease-in-out infinite;
+          }
+
           @media (max-width: 768px) {
             .topBar {
               font-size: 12px !important;
@@ -58,6 +103,14 @@ export default function Page() {
               right: 16px !important;
               text-align: center !important;
               justify-content: center !important;
+            }
+
+            .freeEstimateCircle {
+              width: 88px !important;
+              height: 88px !important;
+              font-size: 12px !important;
+              right: 14px !important;
+              bottom: 86px !important;
             }
           }
 
@@ -127,7 +180,7 @@ export default function Page() {
         </h1>
 
         <p className="heroText" style={{ fontSize: 22, color: "#cbd5e1", maxWidth: 650 }}>
-          Serving Connecticut (New Milford, Danbury, Bethel, Waterbury, Shelton, Bridgeport,Newtown, Stamford, Norwalk, Ridgefield and many more areas! Call now for a free consultation.
+          Serving Connecticut (New Milford, Danbury, Bethel, Waterbury, Shelton, Bridgeport, Newtown, Stamford, Norwalk, Ridgefield and many more areas! Call now for a free consultation.
         </p>
 
         <p className="heroText" style={{ fontSize: 20, color: "#94a3b8", maxWidth: 650 }}>
@@ -216,6 +269,10 @@ export default function Page() {
         <h2 className="bottomTitle" style={{ fontSize: 44 }}>Need Water Cleanup Now?</h2>
         <p style={{ fontSize: 22, color: "#cbd5e1" }}>Call E.D.W.A.R.D. Water Restoration today.</p>
       </section>
+
+      <a className="freeEstimateCircle" href="tel:18559835663">
+        FREE<br />ESTIMATES
+      </a>
 
       <a
         className="floatingCall"
