@@ -127,7 +127,7 @@ export default function Page() {
         </h1>
 
         <p className="heroText" style={{ fontSize: 22, color: "#cbd5e1", maxWidth: 650 }}>
-          Serving Danbury, CT and surrounding areas including Bethel, Brookfield, Newtown, and Ridgefield.
+          Serving Connecticut (New Milford, Danbury, Bethel, Waterbury, Shelton, Bridgeport,Newtown, Stamford, Norwalk, Ridgefield and many more areas! Call now for a free consultation.
         </p>
 
         <p className="heroText" style={{ fontSize: 20, color: "#94a3b8", maxWidth: 650 }}>
