@@ -343,6 +343,51 @@ export default function Page() {
               style={fieldStyle}
             />
 
+            {/* ADDED SMS OPT-IN FOR GRASSHOPPER VERIFICATION */}
+            <label
+              style={{
+                display: "flex",
+                alignItems: "flex-start",
+                gap: 12,
+                background: "#0f172a",
+                border: "1px solid #164e63",
+                borderRadius: 12,
+                padding: 16,
+                color: "#cbd5e1",
+                fontSize: 14,
+                lineHeight: 1.5,
+              }}
+            >
+              <input
+                type="checkbox"
+                name="sms_consent"
+                required
+                value="Customer agreed to receive SMS messages from E.D.W.A.R.D. Water Restoration."
+                style={{
+                  marginTop: 4,
+                  width: 18,
+                  height: 18,
+                  accentColor: "#d9ff3f",
+                  flexShrink: 0,
+                }}
+              />
+
+              <span>
+                I agree to receive SMS messages from <strong style={{ color: "#ffffff" }}>E.D.W.A.R.D. Water Restoration</strong> regarding my service request. Message frequency varies. Message & data rates may apply. Reply <strong style={{ color: "#ffffff" }}>STOP</strong> to opt out.
+              </span>
+            </label>
+
+            <p
+              style={{
+                margin: "-6px 0 2px",
+                color: "#94a3b8",
+                fontSize: 12,
+                lineHeight: 1.4,
+              }}
+            >
+              Your information is used only to respond to your request and will not be sold or shared.
+            </p>
+
             <button
               type="submit"
               style={{
