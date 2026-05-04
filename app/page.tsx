@@ -1,6 +1,6 @@
 export default function Page() {
 
-  const fieldStyle = {
+  const fieldStyle: React.CSSProperties = {
     background: "#0f172a",
     border: "1px solid #164e63",
     color: "white",
