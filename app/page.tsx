@@ -186,7 +186,7 @@ export default function Page() {
             <textarea
               name="message"
               placeholder="Describe your issue..."
-              rows="4"
+              rows={4}
               style={fieldStyle}
               required
             />
