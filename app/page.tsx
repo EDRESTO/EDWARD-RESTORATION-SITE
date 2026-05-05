@@ -66,11 +66,17 @@ export default function Page() {
           }
 
           .serviceImage {
-            width: 100%;
-            height: 280px;
-            object-fit: cover;
-            display: block;
-          }
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.serviceImageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
           .freeEstimateCircle {
             position: fixed;
