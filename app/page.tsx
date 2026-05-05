@@ -582,8 +582,25 @@ export default function Page() {
 
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 12 }}>
             {cities.map((city) => (
-              <span className="cityChip" key={city}>{city}</span>
-            ))}
+  <span className="cityChip" key={city}>{city}</span>
+))}
+
+<span className="cityChip" style={{ background: "#d9ff3f", color: "#07111f" }}>
+  AND MORE
+</span>
+
+<span
+  className="cityChip"
+  style={{
+    background: "#22d3ee",
+    color: "#07111f",
+    cursor: "pointer",
+    boxShadow: "0 0 16px #22d3ee",
+  }}
+  onClick={() => window.location.href = "tel:18559835663"}
+>
+  CALL NOW
+</span>
           </div>
         </div>
       </section>
