@@ -395,7 +395,13 @@ export default function Page() {
               </p>
 
               <div style={{ display: "grid", gap: 12, marginTop: 22 }}>
-                {["Water Extraction", "Drying & Dehumidification", "Moisture Control", "Mold Prevention"].map((item) => (
+                {[
+  "Water Extraction",
+  "Drying & Dehumidification",
+  "Moisture Control",
+  "Mold Prevention",
+  "Leak Detection"
+].map((item) => (
                   <div
                     key={item}
                     style={{
