@@ -400,7 +400,7 @@ export default function Page() {
   "Leak Detection",
   "Mold Prevention",
   "Moisture Control",
-  "Drying & Dehumidification"
+  "Free Consultation"
 ].map((item) => (
                   <div
                     key={item}
