@@ -300,7 +300,77 @@ export default function Page() {
           </div>
         </div>
       </section>
+<section style={{ background: "#07111f", padding: "55px 24px", textAlign: "center" }}>
+  <div
+    style={{
+      maxWidth: 980,
+      margin: "0 auto",
+      background: "linear-gradient(135deg, rgba(15,23,42,0.95), rgba(7,17,31,0.98))",
+      border: "1px solid #164e63",
+      borderRadius: 24,
+      padding: "34px 24px",
+      boxShadow: "0 0 35px rgba(34, 211, 238, 0.18)",
+    }}
+  >
+    <div style={{ fontSize: 42, marginBottom: 12 }}>🛡️</div>
 
+    <h3
+      style={{
+        fontSize: 28,
+        fontWeight: 900,
+        color: "#d9ff3f",
+        letterSpacing: "0.6px",
+        marginBottom: 12,
+      }}
+    >
+      WE WORK WITH MOST MAJOR INSURANCE COMPANIES
+    </h3>
+
+    <p
+      style={{
+        fontSize: 19,
+        color: "#cbd5e1",
+        maxWidth: 760,
+        margin: "0 auto 22px",
+        lineHeight: 1.6,
+      }}
+    >
+      We guide you through the claims process from beginning to end with clear documentation,
+      moisture readings, drying updates, and restoration support.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+        gap: 14,
+        marginTop: 24,
+      }}
+    >
+      {[
+        "Claim Guidance",
+        "Moisture Readings",
+        "Drying Documentation",
+        "Insurance Support",
+      ].map((item) => (
+        <div
+          key={item}
+          style={{
+            background: "#0f172a",
+            border: "1px solid #164e63",
+            borderRadius: 16,
+            padding: "16px 12px",
+            color: "#ffffff",
+            fontWeight: 800,
+            boxShadow: "0 0 18px rgba(217, 255, 63, 0.08)",
+          }}
+        >
+          {item}
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
       <section style={{ padding: "60px 24px 100px", textAlign: "center" }}>
         <h2 className="bottomTitle" style={{ fontSize: 44 }}>Need Water Cleanup Now?</h2>
         <p style={{ fontSize: 22, color: "#cbd5e1" }}>Call E.D.W.A.R.D. Water Restoration today.</p>
