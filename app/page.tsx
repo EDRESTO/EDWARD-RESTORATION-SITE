@@ -160,28 +160,13 @@ export default function Page() {
       </section>
 
       <section style={{ textAlign: "center", padding: "20px 12px 5px" }}>
-  <img
-    className="logo"
-    src="/edward-logo-v2.png"
-    alt="E.D.W.A.R.D. Logo"
-    style={{ maxWidth: "600px", width: "100%", height: "auto" }}
-  />
-
-  {/* IICRC BADGE */}
-  <div style={{ marginTop: "14px" }}>
-    <img
-      src="/iicrc-certified-technicians-clean.png"
-      alt="IICRC Certified Technicians"
-      style={{
-        maxWidth: "420px",
-        width: "100%",
-        height: "auto",
-        borderRadius: "14px",
-        filter: "drop-shadow(0 0 16px rgba(34, 211, 238, 0.6))",
-      }}
-    />
-  </div>
-</section>
+        <img
+          className="logo"
+          src="/edward-logo-v2.png"
+          alt="E.D.W.A.R.D. Logo"
+          style={{ maxWidth: "600px", width: "100%", height: "auto" }}
+        />
+      </section>
 
       <section style={{ display: "flex", justifyContent: "center", padding: "0 16px" }}>
         <div
@@ -260,17 +245,7 @@ export default function Page() {
               boxShadow: "0 0 18px #07111f, 0 0 20px #d9ff3f",
             }}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#d9ff3f"
-              strokeWidth="2.4"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d9ff3f" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round">
               <rect x="6" y="2" width="12" height="20" rx="3" />
               <path d="M10 18h4" />
             </svg>
@@ -329,36 +304,15 @@ export default function Page() {
           >
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_subject" value="NEW WEBSITE MESSAGE - E.D.W.A.R.D." />
-            <input
-              type="hidden"
-              name="_autoresponse"
-              value="Thank you for contacting E.D.W.A.R.D. Water Restoration. We received your request and we’ll call you momentarily."
-            />
+            <input type="hidden" name="_autoresponse" value="Thank you for contacting E.D.W.A.R.D. Water Restoration. We received your request and we’ll call you momentarily." />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_cc" value="3477532362@tmomail.net" />
 
             <input name="name" placeholder="Full Name" required style={fieldStyle} />
-
-            <input
-              name="phone"
-              type="tel"
-              inputMode="numeric"
-              placeholder="Phone Number"
-              required
-              style={fieldStyle}
-            />
-
+            <input name="phone" type="tel" inputMode="numeric" placeholder="Phone Number" required style={fieldStyle} />
             <input name="email" type="email" placeholder="Email" style={fieldStyle} />
+            <textarea name="message" placeholder="Message" rows={4} required style={fieldStyle} />
 
-            <textarea
-              name="message"
-              placeholder="Message"
-              rows={4}
-              required
-              style={fieldStyle}
-            />
-
-            {/* ADDED SMS OPT-IN FOR GRASSHOPPER VERIFICATION */}
             <label
               style={{
                 display: "flex",
@@ -392,14 +346,7 @@ export default function Page() {
               </span>
             </label>
 
-            <p
-              style={{
-                margin: "-6px 0 2px",
-                color: "#94a3b8",
-                fontSize: 12,
-                lineHeight: 1.4,
-              }}
-            >
+            <p style={{ margin: "-6px 0 2px", color: "#94a3b8", fontSize: 12, lineHeight: 1.4 }}>
               Your information is used only to respond to your request and will not be sold or shared.
             </p>
 
@@ -421,6 +368,20 @@ export default function Page() {
             </button>
           </form>
         </div>
+      </section>
+
+      <section style={{ textAlign: "center", padding: "30px 16px 70px" }}>
+        <img
+          src="/iicrc-certified-technicians-clean.png"
+          alt="IICRC Certified Technicians"
+          style={{
+            maxWidth: "210px",
+            width: "100%",
+            height: "auto",
+            opacity: 0.9,
+            filter: "drop-shadow(0 0 10px rgba(34, 211, 238, 0.35))",
+          }}
+        />
       </section>
 
       <a className="freeEstimateCircle" href="tel:18559835663">
