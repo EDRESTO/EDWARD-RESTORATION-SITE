@@ -395,7 +395,7 @@ export default function Page() {
               </p>
 
               <div style={{ display: "grid", gap: 12, marginTop: 22 }}>
-                {["Water Extraction", "Drying & Dehumidification", "Moisture Readings", "Insurance Documentation"].map((item) => (
+                {["Water Extraction", "Drying & Dehumidification", "Moisture Control", "Mold Prevention"].map((item) => (
                   <div
                     key={item}
                     style={{
@@ -424,7 +424,7 @@ export default function Page() {
           >
             <div className="trustBadge">🛡️ IICRC Certified</div>
             <div className="trustBadge">📍 Local CT Company</div>
-            <div className="trustBadge">📋 Claim Support</div>
+            <div className="trustBadge">📋 Insurance Claim Support</div>
             <div className="trustBadge">⚡ Fast Response</div>
           </div>
         </div>
