@@ -130,6 +130,38 @@ export default function Page() {
             box-shadow: 0 0 42px rgba(34, 211, 238, 0.36), 0 0 28px rgba(217, 255, 63, 0.3);
           }
 
+          .flatServiceCard {
+            background: linear-gradient(135deg, rgba(7,17,31,0.98), rgba(15,23,42,0.98));
+            border-radius: 22px;
+            border: 1px solid rgba(34, 211, 238, 0.32);
+            padding: 22px;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            min-height: 132px;
+            box-shadow: 0 0 28px rgba(34, 211, 238, 0.16);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+          }
+
+          .flatServiceCard:hover {
+            transform: translateY(-6px);
+            border-color: #d9ff3f;
+            box-shadow: 0 0 36px rgba(34, 211, 238, 0.32), 0 0 24px rgba(217, 255, 63, 0.24);
+          }
+
+          .flatIcon {
+            width: 68px;
+            height: 68px;
+            min-width: 68px;
+            border-radius: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 34px;
+            background: radial-gradient(circle, rgba(217,255,63,0.24), rgba(34,211,238,0.15));
+            border: 1px solid rgba(217,255,63,0.26);
+          }
+
           .serviceImage {
             width: 100%;
             height: auto;
@@ -230,6 +262,11 @@ export default function Page() {
             .messageTitle {
               font-size: 34px !important;
               text-align: center !important;
+            }
+
+            .flatServiceCard {
+              align-items: flex-start !important;
+              text-align: left !important;
             }
 
             .floatingCall {
@@ -517,7 +554,6 @@ export default function Page() {
                   "Leak Detection",
                   "Drying & Dehumidification",
                   "Mold Prevention",
-                  "Moisture Readings",
                   "Free Consultation",
                 ].map((item) => (
                   <div
@@ -602,66 +638,30 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="serviceImageCard">
-              <div
-                style={{
-                  minHeight: 230,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  background:
-                    "radial-gradient(circle at center, rgba(34,211,238,0.24), transparent 55%), linear-gradient(135deg, #07111f, #0f172a)",
-                  fontSize: 72,
-                }}
-              >
-                💧
-              </div>
-              <div style={{ padding: 20 }}>
-                <h3 style={{ color: "#d9ff3f", fontSize: 24, margin: "0 0 8px" }}>Leak Detection</h3>
+            <div className="flatServiceCard">
+              <div className="flatIcon">💧</div>
+              <div>
+                <h3 style={{ color: "#d9ff3f", fontSize: 23, margin: "0 0 8px" }}>Leak Detection</h3>
                 <p style={{ color: "#cbd5e1", lineHeight: 1.5, margin: 0 }}>
                   We help identify water source issues and moisture patterns before damage spreads.
                 </p>
               </div>
             </div>
 
-            <div className="serviceImageCard">
-              <div
-                style={{
-                  minHeight: 230,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  background:
-                    "radial-gradient(circle at center, rgba(217,255,63,0.22), transparent 55%), linear-gradient(135deg, #07111f, #0f172a)",
-                  fontSize: 72,
-                }}
-              >
-                📸
-              </div>
-              <div style={{ padding: 20 }}>
-                <h3 style={{ color: "#d9ff3f", fontSize: 24, margin: "0 0 8px" }}>Claim Documentation</h3>
+            <div className="flatServiceCard">
+              <div className="flatIcon">📸</div>
+              <div>
+                <h3 style={{ color: "#d9ff3f", fontSize: 23, margin: "0 0 8px" }}>Claim Documentation</h3>
                 <p style={{ color: "#cbd5e1", lineHeight: 1.5, margin: 0 }}>
-                  Photos, moisture readings, and job notes to help support the insurance process.
+                  Photos, job notes, and clear updates to help support the insurance process.
                 </p>
               </div>
             </div>
 
-            <div className="serviceImageCard">
-              <div
-                style={{
-                  minHeight: 230,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  background:
-                    "radial-gradient(circle at center, rgba(34,211,238,0.22), transparent 55%), linear-gradient(135deg, #07111f, #0f172a)",
-                  fontSize: 72,
-                }}
-              >
-                🌧️
-              </div>
-              <div style={{ padding: 20 }}>
-                <h3 style={{ color: "#d9ff3f", fontSize: 24, margin: "0 0 8px" }}>Storm Damage</h3>
+            <div className="flatServiceCard">
+              <div className="flatIcon">🌧️</div>
+              <div>
+                <h3 style={{ color: "#d9ff3f", fontSize: 23, margin: "0 0 8px" }}>Storm Damage</h3>
                 <p style={{ color: "#cbd5e1", lineHeight: 1.5, margin: 0 }}>
                   Emergency response for rain, storm intrusion, wet basements, and interior water damage.
                 </p>
@@ -715,9 +715,7 @@ export default function Page() {
         >
           {[
             ["24/7", "Emergency Response"],
-            ["1,000+", "Claims Experience"],
             ["CT", "Local Service Area"],
-            ["WTFLOOD", "Easy Number To Remember"],
           ].map(([big, small]) => (
             <div key={big}>
               <div style={{ fontSize: 38, fontWeight: 900, color: "#d9ff3f" }}>{big}</div>
