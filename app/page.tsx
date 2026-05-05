@@ -549,9 +549,9 @@ export default function Page() {
             }}
           >
             {[
-              "Claim Guidance",
-              "Moisture Readings",
-              "Drying Documentation",
+              "We file insurance Claims",
+              "Handle most of the process",
+              "Insurance Documentation",
               "Insurance Support",
             ].map((item) => (
               <div
