@@ -160,13 +160,28 @@ export default function Page() {
       </section>
 
       <section style={{ textAlign: "center", padding: "20px 12px 5px" }}>
-        <img
-          className="logo"
-          src="/edward-logo-v2.png"
-          alt="E.D.W.A.R.D. Logo"
-          style={{ maxWidth: "600px", width: "100%", height: "auto" }}
-        />
-      </section>
+  <img
+    className="logo"
+    src="/edward-logo-v2.png"
+    alt="E.D.W.A.R.D. Logo"
+    style={{ maxWidth: "600px", width: "100%", height: "auto" }}
+  />
+
+  {/* IICRC BADGE */}
+  <div style={{ marginTop: "14px" }}>
+    <img
+      src="/iicrc-certified-technicians-clean.png"
+      alt="IICRC Certified Technicians"
+      style={{
+        maxWidth: "420px",
+        width: "100%",
+        height: "auto",
+        borderRadius: "14px",
+        filter: "drop-shadow(0 0 16px rgba(34, 211, 238, 0.6))",
+      }}
+    />
+  </div>
+</section>
 
       <section style={{ display: "flex", justifyContent: "center", padding: "0 16px" }}>
         <div
