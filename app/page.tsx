@@ -280,11 +280,11 @@ export default function Page() {
         <div style={{ maxWidth: 1180, margin: "0 auto", position: "relative" }}>
           <section style={{ textAlign: "center", padding: "8px 12px 5px" }}>
             <img
-              className="logo"
-              src="/edward-logo-v2.png"
-              alt="E.D.W.A.R.D. Logo"
-              style={{ maxWidth: "560px", width: "100%", height: "auto" }}
-            />
+  className="logo"
+  src="/edward-logo-v2.png"
+  alt="E.D.W.A.R.D. Logo"
+  style={{ maxWidth: "600px", width: "100%", height: "auto" }}
+/>
           </section>
 
           <section style={{ display: "flex", justifyContent: "center", padding: "0 16px" }}>
