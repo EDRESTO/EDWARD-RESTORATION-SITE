@@ -555,8 +555,8 @@ export default function Page() {
             }}
           >
             {[
-              "We file your insurance Claim",
-              "Handle most of the process",
+              "We File your Insurance Claim",
+              "Handle Most of the Process",
               "Insurance Documentation",
               "Insurance Support",
             ].map((item) => (
