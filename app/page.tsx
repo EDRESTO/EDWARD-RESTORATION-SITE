@@ -555,7 +555,7 @@ export default function Page() {
             }}
           >
             {[
-              "We file insurance Claims",
+              "We file your insurance Claim",
               "Handle most of the process",
               "Insurance Documentation",
               "Insurance Support",
