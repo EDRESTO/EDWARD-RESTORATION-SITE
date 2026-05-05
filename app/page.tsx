@@ -589,18 +589,19 @@ export default function Page() {
   AND MORE
 </span>
 
-<span
+<a
   className="cityChip"
+  href="tel:18559835663"
   style={{
     background: "#22d3ee",
     color: "#07111f",
-    cursor: "pointer",
     boxShadow: "0 0 16px #22d3ee",
+    textDecoration: "none",
+    display: "inline-block",
   }}
-  onClick={() => window.location.href = "tel:18559835663"}
 >
   CALL NOW
-</span>
+</a>
           </div>
         </div>
       </section>
