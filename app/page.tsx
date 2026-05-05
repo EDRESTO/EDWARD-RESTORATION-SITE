@@ -27,6 +27,26 @@ export default function Page() {
             100% { box-shadow: 0 0 12px #d9ff3f; transform: scale(1); }
           }
 
+          @keyframes insurancePulseGlow {
+            0% {
+              text-shadow: 0 0 8px #d9ff3f, 0 0 14px #22d3ee;
+              transform: scale(1);
+            }
+            50% {
+              text-shadow: 0 0 18px #d9ff3f, 0 0 38px #22d3ee;
+              transform: scale(1.045);
+            }
+            100% {
+              text-shadow: 0 0 8px #d9ff3f, 0 0 14px #22d3ee;
+              transform: scale(1);
+            }
+          }
+
+          .insuranceGlowText {
+            display: inline-block;
+            animation: insurancePulseGlow 1.8s ease-in-out infinite;
+          }
+
           @keyframes floatEstimate {
             0% { transform: translateY(0px) translateX(0px); }
             25% { transform: translateY(-12px) translateX(-5px); }
@@ -313,6 +333,7 @@ export default function Page() {
           <div style={{ fontSize: 42, marginBottom: 12 }}>🛡️</div>
 
           <h3
+            className="insuranceGlowText"
             style={{
               fontSize: 28,
               fontWeight: 900,
