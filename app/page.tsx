@@ -50,6 +50,28 @@ export default function Page() {
             }
           }
 
+          .serviceImageCard {
+            background: #07111f;
+            border-radius: 20px;
+            border: 1px solid #164e63;
+            overflow: hidden;
+            box-shadow: 0 0 24px rgba(34, 211, 238, 0.16);
+            transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+          }
+
+          .serviceImageCard:hover {
+            transform: translateY(-6px);
+            border-color: #22d3ee;
+            box-shadow: 0 0 34px rgba(34, 211, 238, 0.35), 0 0 20px rgba(217, 255, 63, 0.18);
+          }
+
+          .serviceImage {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            display: block;
+          }
+
           .freeEstimateCircle {
             position: fixed;
             right: 22px;
@@ -117,6 +139,11 @@ export default function Page() {
               text-align: center !important;
             }
 
+            .serviceImage {
+              height: auto !important;
+              object-fit: contain !important;
+            }
+
             .floatingCall {
               left: 16px !important;
               right: 16px !important;
@@ -182,14 +209,7 @@ export default function Page() {
         />
       </section>
 
-      <section
-        className="hero"
-        style={{
-          padding: "10px 24px 60px",
-          maxWidth: 1100,
-          margin: "-20px auto 0",
-        }}
-      >
+      <section className="hero" style={{ padding: "10px 24px 60px", maxWidth: 1100, margin: "-20px auto 0" }}>
         <h1 className="heroTitle" style={{ fontSize: "56px", lineHeight: 1.05 }}>
           Water Damage?
           <br />
@@ -259,17 +279,18 @@ export default function Page() {
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
           <h2 className="servicesTitle" style={{ fontSize: 42 }}>Our Services</h2>
 
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20 }}>
-            {[
-              ["Water Extraction", "Remove standing water fast from floors, basements, carpets, and affected areas."],
-              ["Drying & Dehumidification", "Professional drying setup to reduce moisture and protect the structure."],
-              ["Mold Prevention", "Moisture control to help reduce the chance of mold growth after water damage."],
-            ].map(([title, text]) => (
-              <div key={title} style={{ background: "#07111f", padding: 28, borderRadius: 18, border: "1px solid #164e63" }}>
-                <h3 style={{ color: "#d9ff3f" }}>{title}</h3>
-                <p style={{ color: "#cbd5e1" }}>{text}</p>
-              </div>
-            ))}
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
+            <div className="serviceImageCard">
+              <img className="serviceImage" src="/water-extraction.png" alt="Water Extraction" />
+            </div>
+
+            <div className="serviceImageCard">
+              <img className="serviceImage" src="/drying-dehumidification.png" alt="Drying and Dehumidification" />
+            </div>
+
+            <div className="serviceImageCard">
+              <img className="serviceImage" src="/mold-prevention.png" alt="Mold Prevention" />
+            </div>
           </div>
         </div>
       </section>
