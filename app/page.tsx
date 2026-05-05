@@ -678,7 +678,7 @@ export default function Page() {
           </h2>
 
           <p style={{ color: "#cbd5e1", fontSize: 20, textAlign: "center", maxWidth: 720, margin: "0 auto 36px", lineHeight: 1.6 }}>
-            A clean, professional workflow from the first call to the final drying update.
+            A clean, professional workflow from the first call to the full and complete recovery of your property.
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: 18 }}>
