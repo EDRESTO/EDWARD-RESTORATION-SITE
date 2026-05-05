@@ -203,7 +203,7 @@ export default function Page() {
         </p>
 
         <p className="heroText" style={{ fontSize: 20, color: "#94a3b8", maxWidth: 650 }}>
-          Fast water extraction, drying, dehumidification, and mold prevention for homes and businesses.
+          Fast water damage remediation, drying, dehumidification, and mold prevention for homes and businesses.
         </p>
 
         <a
