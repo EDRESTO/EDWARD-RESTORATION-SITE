@@ -621,7 +621,7 @@ export default function Page() {
             </h2>
 
             <p style={{ color: "#cbd5e1", fontSize: 20, maxWidth: 780, lineHeight: 1.6, margin: "0 auto" }}>
-              Built for emergency water damage jobs where speed, clean documentation, and professional drying matter.
+              Fast, professional water restoration services designed to protect your property and support our clients with a smooth recovery process from disaster and help you take back control swift and fast. Most claims are solved within days.
             </p>
           </div>
 
