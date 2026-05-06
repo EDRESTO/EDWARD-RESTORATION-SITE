@@ -499,24 +499,7 @@ export default function Page() {
                 Fast water extraction, structural drying, dehumidification, leak detection, mold prevention, and insurance claim support for homes and businesses across Connecticut.
               </p>
 
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 12, margin: "22px 0 4px" }}>
-                {["⚡ Fast Response", "📋 Claim Documentation", "🛡️ IICRC Certified", "📍 Local CT Company"].map((item) => (
-                  <span
-                    key={item}
-                    style={{
-                      background: "rgba(15,23,42,0.92)",
-                      border: "1px solid rgba(34,211,238,0.42)",
-                      color: "#ffffff",
-                      padding: "10px 13px",
-                      borderRadius: 999,
-                      fontWeight: 900,
-                      fontSize: 14,
-                    }}
-                  >
-                    {item}
-                  </span>
-                ))}
-              </div>
+              
 
               <a
                 className="callButton"
