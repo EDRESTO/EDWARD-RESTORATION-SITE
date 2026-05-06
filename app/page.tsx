@@ -570,9 +570,10 @@ export default function Page() {
                 {[
                   "Water Extraction",
                   "Leak Detection",
-                  "Drying & Dehumidification",
+                  "Dehumidification",
                   "Mold Prevention",
-                  "Free Consultation",
+                  "Free Visit"
+            "Extreme Drying",
                 ].map((item) => (
                   <div
                     key={item}
