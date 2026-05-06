@@ -613,75 +613,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section id="insurance" style={{ background: "#050b14", padding: "70px 24px", textAlign: "center" }}>
-  <div
-    className="premiumCard"
-    style={{
-      maxWidth: 980,
-      margin: "0 auto",
-      padding: "40px 24px",
-    }}
-  >
-    <div style={{ fontSize: 44, marginBottom: 12 }}>🛡️</div>
-
-    <h3
-      className="insuranceGlowText"
-      style={{
-        fontSize: 30,
-        fontWeight: 900,
-        color: "#d9ff3f",
-        letterSpacing: "0.6px",
-        marginBottom: 12,
-      }}
-    >
-      WE WORK WITH MOST MAJOR INSURANCE COMPANIES
-    </h3>
-
-    <p
-      style={{
-        fontSize: 19,
-        color: "#cbd5e1",
-        maxWidth: 760,
-        margin: "0 auto 22px",
-        lineHeight: 1.6,
-      }}
-    >
-      We guide you through the claims process from beginning to end with clear documentation,
-      moisture readings, drying updates, and restoration support.
-    </p>
-
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-        gap: 14,
-        marginTop: 24,
-      }}
-    >
-      {[
-        "We File Your Insurance Claim",
-        "Handle Most of the Process",
-        "Insurance Documentation",
-        "Insurance Support",
-      ].map((item) => (
-        <div
-          key={item}
-          style={{
-            background: "#0f172a",
-            border: "1px solid #164e63",
-            borderRadius: 16,
-            padding: "16px 12px",
-            color: "#ffffff",
-            fontWeight: 800,
-            boxShadow: "0 0 18px rgba(217, 255, 63, 0.08)",
-          }}
-        >
-          {item}
-        </div>
-      ))}
-    </div>
-  </div>
-</section>
+      
 
 <section id="services" style={{ background: "#0f172a", padding: "76px 24px" }}>
         <div style={{ maxWidth: 1120, margin: "0 auto" }}>
