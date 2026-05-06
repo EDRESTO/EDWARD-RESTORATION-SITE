@@ -212,6 +212,39 @@ export default function Page() {
             color: #d9ff3f;
           }
 
+          .legalLink {
+            color: #22d3ee;
+            text-decoration: underline;
+            font-weight: 900;
+          }
+
+          .legalLink:hover {
+            color: #d9ff3f;
+          }
+
+          .legalSectionTitle {
+            font-size: 42px;
+            margin: 0 0 14px;
+            color: #ffffff;
+          }
+
+          .legalBox h3 {
+            color: #d9ff3f;
+            font-size: 24px;
+            margin: 28px 0 10px;
+          }
+
+          .legalBox p,
+          .legalBox li {
+            color: #cbd5e1;
+            font-size: 17px;
+            line-height: 1.65;
+          }
+
+          .legalBox ul {
+            padding-left: 22px;
+          }
+
           @media (max-width: 768px) {
             .topBar {
               font-size: 12px !important;
@@ -345,6 +378,8 @@ export default function Page() {
             <a className="navLink" href="#insurance">Insurance</a>
             <a className="navLink" href="#areas">Areas</a>
             <a className="navLink" href="#message">Message Us</a>
+            <a className="navLink" href="#privacy-policy">Privacy</a>
+            <a className="navLink" href="#terms-and-conditions">Terms</a>
           </div>
 
           <a
@@ -912,12 +947,12 @@ export default function Page() {
               />
 
               <span>
-                I agree to receive SMS messages from <strong style={{ color: "#ffffff" }}>E.D.W.A.R.D. Water Restoration</strong> regarding my service request. Message frequency varies. Message & data rates may apply. Reply <strong style={{ color: "#ffffff" }}>STOP</strong> to opt out.
+                I agree to receive conversational and customer care SMS messages from <strong style={{ color: "#ffffff" }}>E.D.W.A.R.D. Water Restoration</strong> regarding my service request, scheduling, technician arrival updates, and restoration updates. Message frequency varies. Message & data rates may apply. Reply <strong style={{ color: "#ffffff" }}>STOP</strong> to opt out. Reply <strong style={{ color: "#ffffff" }}>HELP</strong> for assistance. See our <a className="legalLink" href="#privacy-policy">Privacy Policy</a> and <a className="legalLink" href="#terms-and-conditions">Terms & Conditions</a>.
               </span>
             </label>
 
             <p style={{ margin: "-6px 0 2px", color: "#94a3b8", fontSize: 12, lineHeight: 1.4 }}>
-              Your information is used only to respond to your request and will not be sold or shared.
+              Your information is used only to respond to your request. Customer information is not shared with third parties for marketing or promotional purposes.
             </p>
 
             <button
@@ -937,6 +972,109 @@ export default function Page() {
               SEND MESSAGE
             </button>
           </form>
+        </div>
+      </section>
+
+      <section id="privacy-policy" style={{ background: "#050b14", padding: "76px 24px" }}>
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <div className="glassCard legalBox" style={{ padding: "34px 28px" }}>
+            <div style={{ color: "#22d3ee", fontWeight: 900, letterSpacing: 2, marginBottom: 10 }}>CUSTOMER PRIVACY</div>
+            <h2 className="legalSectionTitle">Privacy Policy</h2>
+            <p style={{ color: "#94a3b8", marginTop: 0 }}>Effective Date: May 2026</p>
+
+            <p>
+              E.D.W.A.R.D. Water Restoration values your privacy and is committed to protecting your personal information.
+            </p>
+
+            <h3>Information We Collect</h3>
+            <p>We may collect customer information such as:</p>
+            <ul>
+              <li>Name</li>
+              <li>Phone number</li>
+              <li>Email address</li>
+              <li>Property address</li>
+              <li>Service request information</li>
+              <li>Insurance-related information voluntarily provided by the customer</li>
+            </ul>
+
+            <h3>How We Use Your Information</h3>
+            <p>We use your information to respond to service requests, schedule appointments, provide restoration updates, coordinate drying and mitigation services, communicate about estimates or invoices, and provide customer support.</p>
+
+            <h3>SMS / Text Messaging Policy</h3>
+            <p>
+              By providing your phone number, you consent to receive conversational and customer care text messages from E.D.W.A.R.D. Water Restoration regarding emergency water cleanup requests, appointment scheduling, technician arrival updates, drying equipment monitoring, job progress updates, and customer support communications.
+            </p>
+            <p>Message frequency may vary.</p>
+            <p>Message and data rates may apply.</p>
+            <p>Reply STOP to opt out.</p>
+            <p>Reply HELP for assistance.</p>
+            <p>
+              Customer information is not shared with third parties for marketing or promotional purposes.
+            </p>
+
+            <h3>Data Protection</h3>
+            <p>
+              We implement reasonable security measures to protect customer information from unauthorized access or disclosure.
+            </p>
+
+            <h3>Third-Party Services</h3>
+            <p>
+              We may use third-party communication and business service providers to assist with scheduling, messaging, customer support, and website operations.
+            </p>
+
+            <h3>Contact Information</h3>
+            <p>
+              E.D.W.A.R.D. Water Restoration<br />
+              24/7 Emergency Water Cleanup & Restoration<br />
+              Phone: <a className="legalLink" href="tel:18559835663">1 (855) 983-5663</a><br />
+              Website: https://edwardrestoration.com
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="terms-and-conditions" style={{ background: "#0f172a", padding: "76px 24px" }}>
+        <div style={{ maxWidth: 980, margin: "0 auto" }}>
+          <div className="glassCard legalBox" style={{ padding: "34px 28px" }}>
+            <div style={{ color: "#22d3ee", fontWeight: 900, letterSpacing: 2, marginBottom: 10 }}>CUSTOMER TERMS</div>
+            <h2 className="legalSectionTitle">Terms & Conditions</h2>
+            <p style={{ color: "#94a3b8", marginTop: 0 }}>Effective Date: May 2026</p>
+
+            <p>
+              By using the services or website of E.D.W.A.R.D. Water Restoration, you agree to the following terms and conditions.
+            </p>
+
+            <h3>Service Communication</h3>
+            <p>
+              By submitting a form or contacting E.D.W.A.R.D. Water Restoration, you consent to receive phone calls and SMS text messages regarding service requests, emergency response, appointment scheduling, technician arrival updates, restoration progress updates, and customer support.
+            </p>
+            <p>Message frequency may vary.</p>
+            <p>Message and data rates may apply.</p>
+            <p>Reply STOP to opt out.</p>
+            <p>Reply HELP for assistance.</p>
+
+            <h3>Emergency Services</h3>
+            <p>
+              E.D.W.A.R.D. Water Restoration provides emergency response services based on availability, weather conditions, and operational capacity.
+            </p>
+
+            <h3>Estimates & Insurance</h3>
+            <p>
+              Estimates may vary depending on project scope, insurance approvals, hidden damage, and additional mitigation requirements.
+            </p>
+
+            <h3>Limitation of Liability</h3>
+            <p>
+              E.D.W.A.R.D. Water Restoration is not responsible for damages caused by pre-existing conditions, structural defects, or delays outside of operational control.
+            </p>
+
+            <h3>Contact Information</h3>
+            <p>
+              E.D.W.A.R.D. Water Restoration<br />
+              Phone: <a className="legalLink" href="tel:18559835663">1 (855) 983-5663</a><br />
+              Website: https://edwardrestoration.com
+            </p>
+          </div>
         </div>
       </section>
 
@@ -961,6 +1099,11 @@ export default function Page() {
         <p style={{ color: "#94a3b8", marginTop: 12 }}>
           Call 1 (855) 983-5663
         </p>
+
+        <div style={{ display: "flex", justifyContent: "center", gap: 18, flexWrap: "wrap", marginTop: 18 }}>
+          <a className="legalLink" href="#privacy-policy">Privacy Policy</a>
+          <a className="legalLink" href="#terms-and-conditions">Terms & Conditions</a>
+        </div>
       </footer>
 
       <a className="freeEstimateCircle" href="tel:18559835663">
