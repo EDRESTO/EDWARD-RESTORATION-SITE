@@ -960,7 +960,45 @@ export default function Page() {
           </form>
         </div>
       </section>
+<section
+  style={{
+    background: "#050b14",
+    padding: "40px 24px 50px",
+    textAlign: "center",
+    borderTop: "1px solid rgba(34,211,238,0.18)",
+  }}
+>
+  <a
+    href="#message"
+    style={{
+      display: "inline-block",
+      background: "linear-gradient(90deg, #d9ff3f, #ffffff, #d9ff3f)",
+      color: "#07111f",
+      padding: "20px 34px",
+      borderRadius: 999,
+      fontWeight: 950,
+      textDecoration: "none",
+      fontSize: 22,
+      letterSpacing: "0.4px",
+      boxShadow: "0 0 32px rgba(217,255,63,0.75), 0 0 28px rgba(34,211,238,0.32)",
+      border: "2px solid rgba(255,255,255,0.9)",
+      textTransform: "uppercase",
+    }}
+  >
+    BOOK YOUR NON COMMITMENT APPOINTMENT NOW!
+  </a>
 
+  <p
+    style={{
+      color: "#94a3b8",
+      fontSize: 14,
+      marginTop: 14,
+      marginBottom: 0,
+    }}
+  >
+    No pressure. Send your information and we’ll call you momentarily.
+  </p>
+</section>
       <footer style={{ background: "#050b14", borderTop: "1px solid rgba(34,211,238,0.24)", padding: "38px 20px 92px", textAlign: "center" }}>
         <img
           src="/iicrc-certified-technicians-clean.png"
