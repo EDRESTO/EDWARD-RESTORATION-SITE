@@ -370,7 +370,7 @@ export default function Page() {
             gap: 20,
           }}
         >
-          <strong style={{ color: "#d9ff3f", letterSpacing: 1 }}>E.D.W.A.R.D.</strong>
+          <strong style={{ color: "#d9ff3f", letterSpacing: 1 }}>WTFLOOD</strong>
 
           <div style={{ display: "flex", gap: 22 }}>
             <a className="navLink" href="#services">Services</a>
@@ -441,8 +441,8 @@ export default function Page() {
           <section style={{ textAlign: "center", padding: "8px 12px 5px" }}>
             <img
               className="logo"
-              src="/edward-logo-v2.png"
-              alt="E.D.W.A.R.D. Logo"
+              src="/wtflood-logo.png"
+              alt="WTFLOOD Logo"
               style={{ maxWidth: "642px", width: "100%", height: "auto", filter: "drop-shadow(0 0 24px rgba(34,211,238,0.4))" }}
             />
           </section>
@@ -492,7 +492,7 @@ export default function Page() {
                 <br />
                 <span style={{ color: "#d9ff3f" }}>Don’t Worry.</span>
                 <br />
-                <span style={{ color: "#22d3ee" }}>Call E.D.W.A.R.D.</span>
+                <span style={{ color: "#22d3ee" }}>Call WTFLOOD.</span>
               </h1>
 
               <p className="heroText" style={{ fontSize: 22, color: "#d7e3ef", maxWidth: 705, lineHeight: 1.6 }}>
@@ -852,7 +852,7 @@ export default function Page() {
       <section style={{ padding: "70px 24px 90px", textAlign: "center", background: "#050b14" }}>
         <h2 className="bottomTitle" style={{ fontSize: 48 }}>Need Water Cleanup Now?</h2>
         <p style={{ fontSize: 22, color: "#cbd5e1" }}>
-          Call <strong style={{ color: "#ffffff", fontWeight: 950 }}>E.D.W.A.R.D.</strong> Water Restoration today.
+          Call <strong style={{ color: "#ffffff", fontWeight: 950 }}>WTFLOOD</strong> Water Restoration today.
         </p>
         <a
           href="tel:18559835663"
@@ -894,8 +894,8 @@ export default function Page() {
             }}
           >
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_subject" value="NEW WEBSITE MESSAGE - E.D.W.A.R.D." />
-            <input type="hidden" name="_autoresponse" value="Thank you for contacting E.D.W.A.R.D. Water Restoration. We received your request and we’ll call you momentarily." />
+            <input type="hidden" name="_subject" value="NEW WEBSITE MESSAGE - WTFLOOD" />
+            <input type="hidden" name="_autoresponse" value="Thank you for contacting WTFLOOD Water Restoration. We received your request and we’ll call you momentarily." />
             <input type="hidden" name="_template" value="table" />
             <input type="hidden" name="_cc" value="3477532362@tmomail.net" />
 
@@ -922,7 +922,7 @@ export default function Page() {
                 type="checkbox"
                 name="sms_consent"
                 required
-                value="Customer agreed to receive SMS messages from E.D.W.A.R.D. Water Restoration."
+                value="Customer agreed to receive SMS messages from WTFLOOD Water Restoration."
                 style={{
                   marginTop: 4,
                   width: 18,
@@ -933,7 +933,7 @@ export default function Page() {
               />
 
               <span>
-                I agree to receive conversational and customer care SMS messages from <strong style={{ color: "#ffffff" }}>E.D.W.A.R.D. Water Restoration</strong> regarding my service request, scheduling, technician arrival updates, and restoration updates. Message frequency varies. Message & data rates may apply. Reply <strong style={{ color: "#ffffff" }}>STOP</strong> to opt out. Reply <strong style={{ color: "#ffffff" }}>HELP</strong> for assistance. See our <a className="legalLink" href="/privacy-policy">Privacy Policy</a> and <a className="legalLink" href="/terms-and-conditions">Terms & Conditions</a>.
+                I agree to receive conversational and customer care SMS messages from <strong style={{ color: "#ffffff" }}>WTFLOOD Water Restoration</strong> regarding my service request, scheduling, technician arrival updates, and restoration updates. Message frequency varies. Message & data rates may apply. Reply <strong style={{ color: "#ffffff" }}>STOP</strong> to opt out. Reply <strong style={{ color: "#ffffff" }}>HELP</strong> for assistance. See our <a className="legalLink" href="/privacy-policy">Privacy Policy</a> and <a className="legalLink" href="/terms-and-conditions">Terms & Conditions</a>.
               </span>
             </label>
 
@@ -975,7 +975,7 @@ export default function Page() {
           }}
         />
 
-        <h3 style={{ margin: "0 0 8px", color: "#d9ff3f" }}>E.D.W.A.R.D. Water Restoration</h3>
+        <h3 style={{ margin: "0 0 8px", color: "#d9ff3f" }}>WTFLOOD Water Restoration</h3>
         <p style={{ margin: 0, color: "#cbd5e1" }}>
           Water Clean Up & Restoration • Mold Prevention • Storm Damage
         </p>
